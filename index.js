@@ -1,27 +1,4 @@
-//my API key: 9YpaQtL2d1LnKbYx7bhz9siTDZ5xsoE2K5hooRHg
-/* jQuery's $(), you can now now use Document.querySelectorAll()
- jQuery's $el.on(), you can now use EventTarget.addEventListener() */
 //tratamenot usar class Date() para não receber valores do futuro do usuário
-
-
-//check if the date is in the pass, not in the future
-
-/* let dateToday =  new Date();
-let y = n.getFullYear();
-let m = n.getMonth() + 1;
-let d = n.getDate();
-if(m < 10)
-   m = '0' + m.toString();
-else if(d < 10)
-   d = '0' + d.toString();
-
-let minDate = y + '-' + m + '-' + d
-let maxDate = y + '-' + "0"+(parseFloat(0+m) + 1) + '-' + d
-date_in.setAttribute("max",maxDate)
-
-if (dateRequest > maxDate){
-    console.log("Você não pode ter fotos do futuro, tente outra vez!")
-} */
 
 let botao = document.querySelector('#submitDate')
 let caixaExibicao = document.querySelector('#requisitionContent')
