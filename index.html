@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="#">
+
+    <title>Consultando as estrelas</title>
+</head>
+<body>
+
+    <header>
+        <h1 id="titlepg">APOD</h1>
+        <nav>
+            <ul>
+                <li><a href="./nav/index-apod.html">Sobre a APOD</a></li>
+                <li><a href="./nav/index-consulting.html">Consultando a API</a></li>
+                <li><a href="./nav/index-contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <h3>Veja a foto do dia de alguma parte do universo:</h3>
+        <input id="date" type="date" min= "2000-01-01">
+        <button id="submitDate" type="submit">Solicitar</button>
+    </form>
+    
+    <div id="requisitionContent">
+        <div class="contentReq">
+            <h2 id="title"> </h2>
+            <h3 id="date"> </h3>
+            <img id="pic" src="" width="45%">
+            <h4 id="explanation"></h4>
+            
+        </div>
+    </div>
+
+    <footer>
+        <audio controls="controls" autoplay="autoplay" loop="loop">
+            <source src="./388275__soonus__deep-space.wav" type="audio/wav">
+          Your browser does not support the audio element.
+          </audio> 
+        
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./index.js"> </script>
+</body>
+</html>
