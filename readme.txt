@@ -1,35 +1,10 @@
-Descrição da atividade:
+###### Projeto de Sprint do Módulo 2 do Bootcamp da Resilia Educação
 
-APOD
-A Nasa disponibiliza uma série de API's que fornecem acesso aos seus projetos e
-sistemas. A "Astronomy Picture of the Day" (APOD) é uma API que fornece uma foto ou
-vídeo, diariamente, para que as pessoas consigam descobrir um pouco mais sobre o
-espaço.
+O projeto tem o objetivo de por em prática os conhecimentos adquiridos sobre requisição AJAX com jQuery.
+A ideia é fazer uma requisição à API do projeto APOD da NASA. O projeto APOD entrega como resposta da resquisição um objeto JSON com dados sobre uma fotografia retirada na data requerida.
 
-● Neste projeto você deverá desenvolver uma aplicação capaz de realizar uma
-requisição para esta API com base em uma data específica e, a partir disso, exibir
-na página a imagem ou vídeo, com a descrição obtida.
+Nosso desafio foi montar a requisição e colocar a resposta no corpo de uma página HTML estática. 
 
-● Utilize seus conhecimentos de HTML, CSS, JavaScript e jQuery, para conceber
-uma aplicação que esteja de acordo com os requisitos.
-Requisitos
-
-● Sua aplicação deve ser capaz de receber uma data como entrada do usuário a
-partir de um formulário.
-
-● Com a data selecionada, ao clicar no botão de envio, uma requisição deve ser
-enviada à [API da APOD](https://api.nasa.gov/planetary/apod ) para que seja
-obtida a foto ou vídeo referente ao dia escolhido.
-
-● De posse dessa informação, a página deve ser manipulada para que os dados
-retornados sejam devidamente exibidos.
-
-● Sua aplicação deve, obrigatoriamente, ter um repositório no Github, estar
-disponível em uma Githubpage e utilizar jQuery.
-
-Estilo da página
-● Não existem requisitos quanto ao estilo da página! Você tem liberdade total para
-explorar diferentes funcionalidades.
 
 Documentação e referências:
 ● [Nasa OpenAPIs - Documentação](https://api.nasa.gov/)
