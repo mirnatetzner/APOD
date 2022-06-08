@@ -1,4 +1,4 @@
-###### Projeto de Sprint do Módulo 2 do Bootcamp da Resilia Educação
+## Projeto de Sprint do Módulo 2 do Bootcamp da Resilia Educação
 
 O projeto tem o objetivo de por em prática os conhecimentos adquiridos sobre requisição AJAX com jQuery.
 A ideia é fazer uma requisição à API do projeto APOD da NASA. O projeto APOD entrega como resposta da resquisição um objeto JSON com dados sobre uma fotografia retirada na data requerida.
